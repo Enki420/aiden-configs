@@ -1,0 +1,169 @@
+{
+  "name": "AIDEN Platform Modes",
+  "version": "1.0.0",
+  "sync": "https://github.com/AIDENPlatform/configs/aiden.mode.json",
+  "modes": [
+    {
+      "id": "aiden@ai",
+      "parent": 0,
+      "dir": true,
+      "text": "AI Tools"
+    },
+    {
+      "id": "aiden@dev",
+      "parent": 0,
+      "dir": true,
+      "text": "Development"
+    },
+    {
+      "id": "aiden@community",
+      "parent": 0,
+      "dir": true,
+      "text": "Community"
+    },
+    {
+      "id": "aiden@design",
+      "parent": 0,
+      "dir": true,
+      "text": "Design"
+    },
+    {
+      "id": "aiden@email",
+      "parent": 0,
+      "dir": true,
+      "text": "Email"
+    },
+    {
+      "id": "aiden@video",
+      "parent": 0,
+      "dir": true,
+      "text": "Video Platforms"
+    },
+    {
+      "id": "aiden:chatgpt",
+      "parent": "aiden@ai",
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "id": "aiden:claude",
+      "parent": "aiden@ai",
+      "text": "Claude AI",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "aiden:gemini",
+      "parent": "aiden@ai",
+      "text": "Gemini AI",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "id": "aiden:poe",
+      "parent": "aiden@ai",
+      "text": "Poe AI",
+      "url": "https://poe.com"
+    },
+    {
+      "id": "aiden:perplexity",
+      "parent": "aiden@ai",
+      "text": "Perplexity AI",
+      "url": "https://www.perplexity.ai"
+    },
+    {
+      "id": "aiden:copilot",
+      "parent": "aiden@ai",
+      "text": "GitHub Copilot",
+      "url": "https://copilot.github.com"
+    },
+    {
+      "id": "aiden:huggingchat",
+      "parent": "aiden@ai",
+      "text": "HuggingChat",
+      "url": "https://huggingface.co/chat"
+    },
+    {
+      "id": "aiden:midjourney",
+      "parent": "aiden@ai",
+      "text": "Midjourney",
+      "url": "https://www.midjourney.com"
+    },
+    {
+      "id": "aiden:suno",
+      "parent": "aiden@ai",
+      "text": "Suno AI",
+      "url": "https://suno.com"
+    },
+    {
+      "id": "aiden:github",
+      "parent": "aiden@dev",
+      "text": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "id": "aiden:replit",
+      "parent": "aiden@dev",
+      "text": "Replit",
+      "url": "https://replit.com"
+    },
+    {
+      "id": "aiden:huggingface",
+      "parent": "aiden@dev",
+      "text": "Hugging Face",
+      "url": "https://huggingface.co"
+    },
+    {
+      "id": "aiden:vscode",
+      "parent": "aiden@dev",
+      "text": "Visual Studio Code",
+      "url": "https://vscode.dev"
+    },
+    {
+      "id": "aiden:x",
+      "parent": "aiden@community",
+      "text": "X (formerly Twitter)",
+      "url": "https://twitter.com"
+    },
+    {
+      "id": "aiden:discord",
+      "parent": "aiden@community",
+      "text": "Discord",
+      "url": "https://discord.com"
+    },
+    {
+      "id": "aiden:hackernews",
+      "parent": "aiden@community",
+      "text": "Hacker News",
+      "url": "https://news.ycombinator.com"
+    },
+    {
+      "id": "aiden:figma",
+      "parent": "aiden@design",
+      "text": "Figma",
+      "url": "https://www.figma.com"
+    },
+    {
+      "id": "aiden:dribbble",
+      "parent": "aiden@design",
+      "text": "Dribbble",
+      "url": "https://dribbble.com"
+    },
+    {
+      "id": "aiden:gmail",
+      "parent": "aiden@email",
+      "text": "Gmail",
+      "url": "https://mail.google.com"
+    },
+    {
+      "id": "aiden:outlook",
+      "parent": "aiden@email",
+      "text": "Outlook",
+      "url": "https://outlook.live.com"
+    },
+    {
+      "id": "aiden:youtube",
+      "parent": "aiden@video",
+      "text": "YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ]
+}

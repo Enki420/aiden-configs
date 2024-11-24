@@ -1,0 +1,40 @@
+{
+  "language": "en",
+  "theme": "dark",
+  "stay_on_top": false,
+  "sidebar_fixed": true,
+  "tray": true,
+  "x_quit": true,
+  "theme_monochromatic": false,
+  "theme_frosted_texture": true,
+  "ask_prompt": false,
+  "ask_prompt_size": "middle",
+  "proxy_rules": "",
+  "proxy_bypass_rules": "",
+  "proxy_rules_enable": false,
+  "proxy_bypass_rules_enable": false,
+  "prompt_type": "dynamic",  // Changed from "prompt" to "dynamic" for flexible responses
+  "prompt_favorite": true,  // Set to true to allow favorites for quick access
+  "prompt_log_max": 500,  // Increased log capacity for prompt history
+  "prompt_log_archive_max": 2000,  // Increased archived log capacity
+  "prompt_favorite_max": 500,  // Increased favorite capacity
+  "prompt_favorite_archive_max": 1500,  // Increased favorite archive capacity
+  "view_prompt_edit": true,  // Enabled editing of prompt logs
+  "view_prompt_type": "list",  // Changed to "list" for better usability
+  "view_prompt_favorite": true,  // Enabled viewing of favorites
+  "noi_cache_mode": true,  // Enabled caching for faster operations
+  "shortcut_prompt_send": "CmdOrCtrl+Enter",
+  "shortcut_prompt_up": "Up",
+  "shortcut_prompt_down": "Down",
+  "global_shortcut": "CmdOrCtrl+Shift+N",
+  "global_shortcut_tray": "CmdOrCtrl+Shift+M",
+  "global_shortcut_prompt": "CmdOrCtrl+Alt+P",
+  "global_shortcut_toggle_theme": "CmdOrCtrl+Alt+T",  // Added shortcut for toggling theme
+  "global_shortcut_quick_action": "CmdOrCtrl+Shift+Q",  // Added shortcut for quick actions
+  "mode_sync": "https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json",
+  "error_reporting": true,  // Added error reporting for debugging
+  "auto_update_check": true,  // Enabled auto-update checking
+  "session_backup": true,  // Enabled session backups for recovery
+  "performance_mode": "balanced",  // Added performance mode for optimizing resource usage
+  "resource_allocation_limit": 70  // Added limit for resource consumption percentage
+}

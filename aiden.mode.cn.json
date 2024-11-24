@@ -1,0 +1,133 @@
+{
+  "name": "AIDEN Platform Modes",
+  "version": "1.0.0",
+  "sync": "https://github.com/AIDENPlatform/configs/aiden.mode.json",
+  "modes": [
+    {
+      "id": "aiden@ai",
+      "parent": 0,
+      "dir": true,
+      "text": "AI"
+    },
+    {
+      "id": "aiden@dev",
+      "parent": 0,
+      "dir": true,
+      "text": "Development"
+    },
+    {
+      "id": "aiden@tools",
+      "parent": 0,
+      "dir": true,
+      "text": "Tools"
+    },
+    {
+      "id": "aiden:chatgpt",
+      "parent": "aiden@ai",
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "id": "aiden:claude",
+      "parent": "aiden@ai",
+      "text": "Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "aiden:huggingchat",
+      "parent": "aiden@ai",
+      "text": "HuggingChat",
+      "url": "https://huggingface.co/chat"
+    },
+    {
+      "id": "aiden:copilot",
+      "parent": "aiden@ai",
+      "text": "GitHub Copilot",
+      "url": "https://copilot.github.com"
+    },
+    {
+      "id": "aiden:poe",
+      "parent": "aiden@ai",
+      "text": "Poe",
+      "url": "https://poe.com"
+    },
+    {
+      "id": "aiden:perplexity",
+      "parent": "aiden@ai",
+      "text": "Perplexity AI",
+      "url": "https://www.perplexity.ai"
+    },
+    {
+      "id": "aiden:vscode",
+      "parent": "aiden@dev",
+      "text": "VS Code",
+      "url": "https://vscode.dev"
+    },
+    {
+      "id": "aiden:github",
+      "parent": "aiden@dev",
+      "text": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "id": "aiden:replit",
+      "parent": "aiden@dev",
+      "text": "Replit",
+      "url": "https://replit.com"
+    },
+    {
+      "id": "aiden:huggingface",
+      "parent": "aiden@dev",
+      "text": "Hugging Face",
+      "url": "https://huggingface.co"
+    },
+    {
+      "id": "aiden:midjourney",
+      "parent": "aiden@ai",
+      "text": "MidJourney",
+      "url": "https://www.midjourney.com"
+    },
+    {
+      "id": "aiden:suno",
+      "parent": "aiden@ai",
+      "text": "Suno AI",
+      "url": "https://suno.com"
+    },
+    {
+      "id": "aiden:bilibili",
+      "parent": "aiden@tools",
+      "text": "Bilibili",
+      "url": "https://www.bilibili.com"
+    },
+    {
+      "id": "aiden:coze",
+      "parent": "aiden@ai",
+      "text": "Coze",
+      "url": "https://www.coze.com/home"
+    },
+    {
+      "id": "aiden:metaso",
+      "parent": "aiden@ai",
+      "text": "Metaso",
+      "url": "https://metaso.cn"
+    },
+    {
+      "id": "aiden:you",
+      "parent": "aiden@ai",
+      "text": "YOU",
+      "url": "https://you.com"
+    },
+    {
+      "id": "aiden:gemini",
+      "parent": "aiden@ai",
+      "text": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "id": "aiden:pi",
+      "parent": "aiden@ai",
+      "text": "Pi",
+      "url": "https://pi.ai/talk"
+    }
+  ]
+}
