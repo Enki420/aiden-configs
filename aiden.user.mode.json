@@ -1,15 +1,131 @@
 {
-  "name": "Noi User Mode",
-  "mode_main": "noi://about",
-  "mode_tray": "https://chatgpt.com",
-  "mode_partition": "",
-  "ua_main": "",
-  "ua_tray": "",
-  "noi_ask": [
-    "noi:chatgpt",
-    "noi:claude",
-    "noi:gemini",
-    "noi:poe"
+  "name": "AIDEN User Mode",
+  "mode_main": "aiden://about",  // Main entry mode: Display about section
+  "mode_tray": "https://chatgpt.com/g/g-673b2d9ab8e081918641aa2586e99c67-aiden",  // Tray mode for quick access
+  "mode_partition": "project_management",  // Define mode partitions, e.g., project management, compliance, etc.
+  "ua_main": "AIDEN-UserAgent/1.0",  // Define the user agent for main mode
+  "ua_tray": "AIDEN-QuickAccess/1.0",  // Define the user agent for tray mode
+  "aiden_ask": [
+    "aiden:chatgpt",   // Integration with GPT for general interaction
+    "aiden:claude",    // Integration with Claude for specialized queries
+    "aiden:gemini",    // Integration with Gemini for advanced analysis
+    "aiden:poe"        // Integration with Poe for specialized use cases
   ],
-  "modes": []
+  "modes": [
+    {
+      "mode_name": "project_management",  // Add a mode for project management tools
+      "description": "Manage and track projects, timelines, and resources",
+      "functions": [
+        "create_project",
+        "track_progress",
+        "assign_tasks",
+        "view_timeline"
+      ],
+      "tools": [
+        "predictive_analytics",    // Use predictive analytics for project forecasting
+        "resource_planner",        // Optimize resource allocation and planning
+        "real_time_collaboration"  // Real-time collaborative tools for teams
+      ]
+    },
+    {
+      "mode_name": "compliance_tracking",  // Add a mode for compliance tracking
+      "description": "Track and ensure project compliance with regulations",
+      "functions": [
+        "verify_compliance",       // Verify compliance with federal and industry standards
+        "generate_compliance_report",
+        "review_contract_clauses"  // Review contract clauses for potential issues
+      ],
+      "tools": [
+        "far_tracker",    // Track FAR/DFARS clauses in proposals
+        "contract_analysis", // Analyze contract terms for compliance risks
+        "risk_assessment"   // Assess potential risks for non-compliance
+      ]
+    },
+    {
+      "mode_name": "analytics",  // Add a mode for advanced data analytics
+      "description": "Leverage AI for data analysis, forecasting, and reporting",
+      "functions": [
+        "data_insights",
+        "forecasting",    // Project forecasting using historical data and ML models
+        "performance_metrics"   // Track performance based on predefined KPIs
+      ],
+      "tools": [
+        "machine_learning",   // Integrate ML models for deeper analysis
+        "budget_optimization", // Use predictive models to optimize budgets
+        "timeline_forecasting"  // Forecast project timelines with AI
+      ]
+    },
+    {
+      "mode_name": "collaborative_mode",  // Add a collaborative mode for team communication
+      "description": "Real-time collaboration and team interaction",
+      "functions": [
+        "live_chat",   // Enable live chat among team members
+        "task_management",  // Manage and assign tasks within teams
+        "commenting",  // Allow team members to comment on project components
+        "file_sharing"  // Share files and resources within teams
+      ],
+      "tools": [
+        "microsoft_teams_integration", // Integrate with MS Teams for communication
+        "slack_integration",    // Integration with Slack for collaboration
+        "project_board"         // Use a project board for task management
+      ]
+    },
+    {
+      "mode_name": "bidding_and_acquisition",  // Add a mode for contract bidding and acquisition
+      "description": "Manage and track the bidding process for federal contracts",
+      "functions": [
+        "submit_bid",   // Submit a proposal or bid for federal contracts
+        "review_bids",  // Review and analyze received bids
+        "bid_tracking"  // Track the progress of bids
+      ],
+      "tools": [
+        "govwin_integration",    // Integrate with GovWin IQ for market intelligence
+        "contract_matcher",      // Match contracts with capabilities
+        "compliance_integrator"   // Integrate compliance features with proposals
+      ]
+    }
+  ],
+  "integration_tools": {
+    "power_bi": {
+      "enabled": true,  // Enable Power BI for data visualization and reporting
+      "data_sources": [
+        "project_data",
+        "budget_data",
+        "compliance_data"
+      ]
+    },
+    "zapier": {
+      "enabled": true,  // Enable Zapier to automate workflows across different tools
+      "actions": [
+        "sync_with_google_drive",   // Sync project docs to Google Drive
+        "send_notification_on_update",  // Send notifications for project updates
+        "trigger_contract_analysis"    // Trigger automatic contract analysis on new proposals
+      ]
+    },
+    "cloud_storage": {
+      "enabled": true,
+      "providers": [
+        "google_drive",
+        "dropbox",
+        "sharepoint"
+      ]
+    }
+  },
+  "security": {
+    "authentication": "OAuth2",  // Define secure authentication method
+    "access_control": "RBAC",    // Use Role-Based Access Control for user permissions
+    "data_encryption": "AES256"  // Ensure data is encrypted in transit and at rest
+  },
+  "notifications": {
+    "email": {
+      "enabled": true,  // Enable email notifications for users
+      "frequency": "daily"
+    },
+    "sms": {
+      "enabled": false
+    },
+    "push": {
+      "enabled": true
+    }
+  }
 }
