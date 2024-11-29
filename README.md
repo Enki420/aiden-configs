@@ -11,9 +11,8 @@ Your custom URL will not be overwritten during updates. If you plan to use your 
 Sync URL
 AIDEN Platform Configs: A collection of AI tools, development platforms, and other resources (e.g., ChatGPT, Gemini, Copilot, Figma, Discord, etc.).
 
-bash
-Copy code
-https://raw.githubusercontent.com/AIDENPlatform/configs/main/aiden.mode.json
+
+https://raw.githubusercontent.com/ENKI420/aiden-configs/main/aiden.mode.json
 Data Format: aiden.mode.json
 Below is a detailed description of the configuration file fields:
 
@@ -38,5 +37,5 @@ For example:
 
 bash
 Copy code
-https://raw.githubusercontent.com/YourUsername/YourRepo/main/custom.mode.json
+https://raw.githubusercontent.com/ENKI420/YourRepo/main/custom.mode.json
 Let me know if you need further enhancements or additional examples!
