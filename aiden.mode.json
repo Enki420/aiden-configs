@@ -1,169 +1,196 @@
 {
   "name": "AIDEN Platform Modes",
-  "version": "1.0.0",
-  "sync": "https://github.com/AIDENPlatform/configs/aiden.mode.json",
+  "version": "1.1.0",
+  "sync": "https://github.com/ENKI420/aiden-configs/aiden.mode.json", 
   "modes": [
     {
       "id": "aiden@ai",
       "parent": 0,
       "dir": true,
-      "text": "AI Tools"
+      "text": "AI Tools",
+      "description": "A collection of AI-powered tools for various purposes such as project management, content creation, and analysis."
     },
     {
       "id": "aiden@dev",
       "parent": 0,
       "dir": true,
-      "text": "Development"
+      "text": "Development",
+      "description": "A set of tools aimed at enhancing development workflows, including version control, coding environments, and collaborative coding platforms."
     },
     {
       "id": "aiden@community",
       "parent": 0,
       "dir": true,
-      "text": "Community"
+      "text": "Community",
+      "description": "Access to community-driven platforms for discussions, social interaction, and networking."
     },
     {
       "id": "aiden@design",
       "parent": 0,
       "dir": true,
-      "text": "Design"
+      "text": "Design",
+      "description": "Tools for collaborative design, creative content, and prototyping."
     },
     {
       "id": "aiden@email",
       "parent": 0,
       "dir": true,
-      "text": "Email"
+      "text": "Email",
+      "description": "Access and manage email accounts and communication workflows."
     },
     {
       "id": "aiden@video",
       "parent": 0,
       "dir": true,
-      "text": "Video Platforms"
+      "text": "Video Platforms",
+      "description": "Access to video streaming, sharing, and content creation tools."
     },
     {
       "id": "aiden:chatgpt",
       "parent": "aiden@ai",
       "text": "ChatGPT",
-      "url": "https://chat.openai.com"
+      "url": "https://chat.openai.com",
+      "description": "ChatGPT for general conversation, idea generation, and knowledge-based queries."
     },
     {
       "id": "aiden:claude",
       "parent": "aiden@ai",
       "text": "Claude AI",
-      "url": "https://claude.ai"
+      "url": "https://claude.ai",
+      "description": "Claude for advanced AI-driven interactions with specialized capabilities."
     },
     {
       "id": "aiden:gemini",
       "parent": "aiden@ai",
       "text": "Gemini AI",
-      "url": "https://gemini.google.com"
+      "url": "https://gemini.google.com",
+      "description": "Google's Gemini AI for research, data analysis, and prediction modeling."
     },
     {
       "id": "aiden:poe",
       "parent": "aiden@ai",
       "text": "Poe AI",
-      "url": "https://poe.com"
+      "url": "https://poe.com",
+      "description": "Poe AI, a conversational model optimized for creative applications."
     },
     {
       "id": "aiden:perplexity",
       "parent": "aiden@ai",
       "text": "Perplexity AI",
-      "url": "https://www.perplexity.ai"
+      "url": "https://www.perplexity.ai",
+      "description": "Perplexity AI for deeper knowledge and specialized question-answering."
     },
     {
       "id": "aiden:copilot",
       "parent": "aiden@ai",
       "text": "GitHub Copilot",
-      "url": "https://copilot.github.com"
+      "url": "https://copilot.github.com",
+      "description": "GitHub Copilot for coding assistance, suggestions, and debugging."
     },
     {
       "id": "aiden:huggingchat",
       "parent": "aiden@ai",
       "text": "HuggingChat",
-      "url": "https://huggingface.co/chat"
+      "url": "https://huggingface.co/chat",
+      "description": "Hugging Face's conversational AI for natural language processing tasks."
     },
     {
       "id": "aiden:midjourney",
       "parent": "aiden@ai",
       "text": "Midjourney",
-      "url": "https://www.midjourney.com"
+      "url": "https://www.midjourney.com",
+      "description": "AI for creative image generation based on text prompts."
     },
     {
       "id": "aiden:suno",
       "parent": "aiden@ai",
       "text": "Suno AI",
-      "url": "https://suno.com"
+      "url": "https://suno.com",
+      "description": "Suno AI for specialized data analysis and forecasting."
     },
     {
       "id": "aiden:github",
       "parent": "aiden@dev",
       "text": "GitHub",
-      "url": "https://github.com"
+      "url": "https://github.com",
+      "description": "Version control and collaborative software development platform."
     },
     {
       "id": "aiden:replit",
       "parent": "aiden@dev",
       "text": "Replit",
-      "url": "https://replit.com"
+      "url": "https://replit.com",
+      "description": "Replit for online coding, IDE, and collaboration."
     },
     {
       "id": "aiden:huggingface",
       "parent": "aiden@dev",
       "text": "Hugging Face",
-      "url": "https://huggingface.co"
+      "url": "https://huggingface.co",
+      "description": "Platform for machine learning models, datasets, and tools for AI development."
     },
     {
       "id": "aiden:vscode",
       "parent": "aiden@dev",
       "text": "Visual Studio Code",
-      "url": "https://vscode.dev"
+      "url": "https://vscode.dev",
+      "description": "Web-based version of Visual Studio Code for cloud development."
     },
     {
       "id": "aiden:x",
       "parent": "aiden@community",
       "text": "X (formerly Twitter)",
-      "url": "https://twitter.com"
+      "url": "https://twitter.com",
+      "description": "Social media platform for updates, discussion, and networking."
     },
     {
       "id": "aiden:discord",
       "parent": "aiden@community",
       "text": "Discord",
-      "url": "https://discord.com"
+      "url": "https://discord.com",
+      "description": "A community platform for discussion, collaboration, and real-time messaging."
     },
     {
       "id": "aiden:hackernews",
       "parent": "aiden@community",
       "text": "Hacker News",
-      "url": "https://news.ycombinator.com"
+      "url": "https://news.ycombinator.com",
+      "description": "Social news site for tech discussions and sharing of important industry updates."
     },
     {
       "id": "aiden:figma",
       "parent": "aiden@design",
       "text": "Figma",
-      "url": "https://www.figma.com"
+      "url": "https://www.figma.com",
+      "description": "Figma for collaborative design, prototyping, and user interface creation."
     },
     {
       "id": "aiden:dribbble",
       "parent": "aiden@design",
       "text": "Dribbble",
-      "url": "https://dribbble.com"
+      "url": "https://dribbble.com",
+      "description": "A platform for creatives to share and showcase their design work."
     },
     {
       "id": "aiden:gmail",
       "parent": "aiden@email",
       "text": "Gmail",
-      "url": "https://mail.google.com"
+      "url": "https://mail.google.com",
+      "description": "Google's email service for personal and professional communication."
     },
     {
       "id": "aiden:outlook",
       "parent": "aiden@email",
       "text": "Outlook",
-      "url": "https://outlook.live.com"
+      "url": "https://outlook.live.com",
+      "description": "Microsoft's Outlook for professional email and calendar management."
     },
     {
       "id": "aiden:youtube",
       "parent": "aiden@video",
       "text": "YouTube",
-      "url": "https://www.youtube.com"
+      "url": "https://www.youtube.com",
+      "description": "YouTube for video sharing, streaming, and educational content."
     }
   ]
 }
